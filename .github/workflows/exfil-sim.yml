@@ -1,0 +1,7 @@
+name: exfil-sim-PRUEBA
+on: workflow_dispatch
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Accion visible de prueba RT-GH-08 (benigna)"
